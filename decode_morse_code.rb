@@ -1,5 +1,5 @@
 def decode_char(morse_char)
-  MORSE_CODE[morse_char] || "?"
+  MORSE_CODE[morse_char] || '?'
 end
 
 def decode_word(morse_word)
@@ -51,6 +51,5 @@ puts decoded_str
 
 decoded_str2 = decode_with_3_spaces('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
 puts decoded_str2
-
 
 # The message in the old bottle is "A BOX FULL OF RUBIES"
