@@ -7,7 +7,7 @@ def decode_word(morse_word)
 end
 
 def decode_with_3_spaces(morse_word)
-  words = morse_word.split(" ").map { |char| decode_word(char) }
+  words = morse_word.split("   ").map { |char| decode_word(char) }
   message = words.join(" ")
 end
 
@@ -46,8 +46,8 @@ puts decoded_char
 decoded_word = decode_word("-- -.--")
 puts decoded_word
 
-decoded_str = decode_with_3_spaces("-- -.-- -. .- -- .")
+decoded_str = decode_with_3_spaces("-- -.--   -. .- -- .")
 puts decoded_str
 
-decoded_str2 = decode_with_3_spaces(".- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...")
+decoded_str2 = decode_with_3_spaces(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
 puts decoded_str2
