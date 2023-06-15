@@ -73,6 +73,12 @@ Clone this repository to your desired folder:
 - GitHub: [@Otegaa](https://github.com/Otegaa)
 - LinkedIn: [blessing-ekiugbo](https://www.linkedin.com/in/blessing-ekiugbo/)
 
+👤 **Abdel-Khafid SALAOU**
+
+- GitHub: [@githubhandle](https://github.com/adeola003)
+- Twitter: [@twitterhandle](https://twitter.com/khadaf6)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdel-khafid-salaou-a18396161)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add more methods for complex decoding]**
