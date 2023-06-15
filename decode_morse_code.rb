@@ -40,3 +40,14 @@ MORSE_CODE = {
 "--.." => "Z"
 }
 
+decoded_char = decode_char (".-")
+puts decoded_char
+
+decoded_word = decode_word("-- -.--")
+puts decoded_word
+
+decoded_str = decode_with_3_spaces("-- -.-- -. .- -- .")
+puts decoded_str
+
+decoded_str2 = decode_with_3_spaces(".- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...")
+puts decoded_str2
