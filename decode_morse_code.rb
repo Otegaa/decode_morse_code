@@ -51,3 +51,6 @@ puts decoded_str
 
 decoded_str2 = decode_with_3_spaces('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
 puts decoded_str2
+
+
+# The message in the old bottle is "A BOX FULL OF RUBIES"
